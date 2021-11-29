@@ -1,0 +1,10 @@
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\MBA_Add_Product.rxtmg
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\MBA_Add_Product.rxtst
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\MBA_Add_Product.exe.config
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\MBA_Add_Product.xml
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\MBA_Add_Product.exe
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\MBA_Add_Product.pdb
+E:\QA\TestMBA\Project1\MBA_Add_Product\bin\Debug\Ranorex.Core.Resolver.dll
+E:\QA\TestMBA\Project1\MBA_Add_Product\obj\x86\Debug\MBA_Add_Product.exe
+E:\QA\TestMBA\Project1\MBA_Add_Product\obj\x86\Debug\MBA_Add_Product.pdb
+E:\QA\TestMBA\Project1\MBA_Add_Product\obj\x86\Debug\MBA_Add_Product.csprojResolveAssemblyReference.cache

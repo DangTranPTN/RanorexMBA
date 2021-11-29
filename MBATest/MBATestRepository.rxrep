@@ -1,0 +1,214 @@
+﻿<repository
+id="4a96e0b4-2241-4ec3-9cb5-65fb08898688"
+name="MBATestRepository">
+	<codegen
+	classname="MBATestRepository"
+	namespace="MBATest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b28f6d7c-4143-4471-82b9-e6b6b62d7a38"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="54a5c4f0-b406-4a97-8b25-2e7e7c86ced4"
+		isrooted="True"
+		name="Administration"
+		refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="bbfbb8d9-cef3-4465-b423-2fe4ed71c3ef"
+			name="InputUsername"
+			refimgid="d0a2eb8d-f180-4013-8736-7bf154df95fd"
+			refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']"
+			robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']"
+			searchtimeout="30000ms">
+				/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f2d6e679-e48e-4c34-bf5c-7f89603ee710"
+			name="InputPassword"
+			refimgid="c146540b-3396-41b5-b3cc-28089286103d"
+			refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-password']"
+			robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-password']"
+			searchtimeout="30000ms">
+				/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-password']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="96e8035d-ca91-426f-abfa-afca5a7e4277"
+			name="ButtonTagLogin"
+			refimgid="1a494093-25c8-44f9-98b3-27c20f4ef91d"
+			refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//div[#'content']/div/div/div/div/div[2]/form/div[3]/button[@innertext=' Login']"
+			robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//div[#'content']//button[@innertext=' Login']"
+			searchtimeout="30000ms">
+				/dom[@domain='ptn-test1.oc.mbasrv.com']//div[#'content']/div/div//form[@action='https://ptn-test1.oc.mbasrv.com/sbe/index.php?route=common/login']/div[3]/button[@innertext=' Login']
+			</item>
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="fc69b142-db52-4f35-90c5-349d6b8cf178"
+			isrooted="True"
+			name="NavNavbarNavNavbarRight"
+			refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/div/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="c506dd49-62ff-4bff-957a-4f9adc91690a"
+				name="FaFaCaretDownFaFw"
+				refimgid="896f85b1-0997-451f-b5dc-b995bb4a6458"
+				refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/div/ul/li[1]/a/i"
+				robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']//i"
+				searchtimeout="30000ms">
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/?/?/ul//i
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="6ddd9184-11b8-4518-acd1-62027b8cc3ac"
+				name="Logout"
+				refimgid="6f0bdb93-4d05-42ae-8e5f-93ef9eb5084a"
+				refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/div/ul/li[2]/a/span[@innertext='Logout']"
+				robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']//span[@innertext='Logout']"
+				searchtimeout="30000ms">
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/?/?/ul//span[@innertext='Logout']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="b678a230-e9e8-4369-8619-4f25ec1bd9e9"
+				name="ATagYourProfile"
+				refimgid="e5222556-7419-42fa-a18f-c1be1fad423d"
+				refpath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/div/ul/li[1]/ul/li[1]/a[@innertext=' Your Profile']"
+				robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']//a[@innertext=' Your Profile']"
+				searchtimeout="30000ms">
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/?/?/ul/?/?/ul/?/?/a[@innertext=' Your Profile']
+				</item>
+				<basepath>
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//header[#'header']/?/?/ul
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='ptn-test1.oc.mbasrv.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="644d0a5c-02ba-49ae-9009-8e522c08c09e"
+		isrooted="True"
+		name="SavePassword"
+		refpath="/form[@title='Save password?']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="2ad06a50-ec89-4ca7-b4fe-9d6288494aeb"
+			name="Close"
+			refimgid="5f06d9a0-44eb-440a-91ea-9b8445473cb4"
+			refpath="/form[@title='Save password?']/element/container/container/button[@accessiblename='Close']"
+			robustPath="/form[@title='Save password?']//button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Save password?']/element[@accessiblename='Save password?']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Save password?']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="9f4d622e-36cc-4e52-8f06-addda7ef15f1"
+		isrooted="True"
+		name="MBATest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="webdocument"
+			id="16de99b2-381e-4a80-a5ad-392b8a33ef8c"
+			isrooted="True"
+			name="Login"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="inputtag"
+				id="8471266a-1683-4e3a-b32c-dda0b9b4c186"
+				name="InputUsername"
+				robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//input[@name='username']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="fdee0fc2-c8c3-4997-896a-ad911315f02e"
+				name="InputPassword"
+				refimgid="c146540b-3396-41b5-b3cc-28089286103d"
+				robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-password']"
+				searchtimeout="30000ms">
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//input[@name='password']
+				</item>
+				<item
+				capname="button"
+				id="5472033b-3acf-46a0-b1f7-272dc089de7d"
+				name="BtnSubmit"
+				robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='ptn-test1.oc.mbasrv.com']//button[@type='submit']
+				</item>
+				<basepath>
+					/dom[@domain='ptn-test1.oc.mbasrv.com']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='ptn-test1.oc.mbasrv.com']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

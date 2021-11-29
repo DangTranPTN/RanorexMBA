@@ -1,0 +1,25 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="AddProduct.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Login.cs" />
+    <Element value="MBA_WEBRepository.rxrep" />
+    <Element value="CloseBrowser.cs" />
+    <Element value="OpenBrowser.cs" />
+    <Element value="FindProduct.cs" />
+    <Element value="AddProduct.cs" />
+    <Element value="CommonFunctions\Menu.cs" />
+    <Element value="MBA_WEB.rxtst" />
+    <Element value="Logout.cs" />
+    <Element value="MBA_WEBRepository.cs" />
+    <Element value="AssemblyInfo.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

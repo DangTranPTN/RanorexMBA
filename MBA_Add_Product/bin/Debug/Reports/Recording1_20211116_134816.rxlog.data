@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.71s"
+		durationms="10709"
+		type="root"
+		rid="14a1db66c16a07dd"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DangTranPTN"
+		rxversion="10.1.2.0"
+		host="DESKTOP-DTRR79V"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/16/2021 1:48:19 PM"
+		timestampiso="2021-11-16T06:48:19"
+		endtime="11/16/2021 1:48:29 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to wait for item to exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.674"
+			timeRelativeToTestModuleStartTime="00:06.674"
+			timeWallClock="13:48:25"
+			time="00:06.674"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Username
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.688"
+			timeRelativeToTestModuleStartTime="00:06.688"
+			timeWallClock="13:48:25"
+			time="00:06.688"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.ranorex.com' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.929"
+			timeRelativeToTestModuleStartTime="00:06.929"
+			timeWallClock="13:48:26"
+			time="00:06.929"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 2s to exist. Associated repository item: 'LoginPage.InputName'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']"
+				itempath=".//input[#'input-username']"
+				fullname="MBA_Add_ProductRepository.LoginPage.InputName"
+				id="7182fbe0c3044bb8ad998cbbbfcfccef"
+				timeout="2000"
+				codefile="e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs"
+				codeline="99"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.222"
+			timeRelativeToTestModuleStartTime="00:08.222"
+			timeWallClock="13:48:27"
+			time="00:08.222"
+			level="Warn"
+			category="WinForms"
+			errimg="images_Recordin_767d9179\Recordin_767d9179_2d634956_trace.jpg"
+			errthumb="images_Recordin_767d9179\Recordin_767d9179_2d634956_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'HPSystemEventUtilityHost' (pid 9520)<br/>https://www.ranorex.com/help/v10.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.428"
+			timeRelativeToTestModuleStartTime="00:10.428"
+			timeWallClock="13:48:29"
+			time="00:10.428"
+			level="Warn"
+			category="Qt"
+			errimg="images_Recordin_767d9179\Recordin_767d9179_a43be204_trace.jpg"
+			errthumb="images_Recordin_767d9179\Recordin_767d9179_a43be204_trace_thumb.jpg">
+			<message>
+				Ranorex can’t identify UI elements in your Qt AUT because it couldn’t instrument it automatically. Start Ranorex Studio and the AUT with the same privileges, preferably as an administrator, and ensure your Qt version is supported.<br/>Process: 'GPlay' (pid 12332)<br/>https://www.ranorex.com/help/v10.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.629"
+			timeRelativeToTestModuleStartTime="00:10.629"
+			timeWallClock="13:48:29"
+			time="00:10.629"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_767d9179\Recordin_767d9179_ebb882db_trace.jpg"
+			errthumb="images_Recordin_767d9179\Recordin_767d9179_ebb882db_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'MBA_Add_ProductRepository.LoginPage.InputName'.<br/>No element found for path '/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']' at step '' after 1 attempts within 2s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at MBA_Add_Product.Recording1.Ranorex.Core.Testing.ITestModule.Run() in e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs:line 100
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs"
+				codeline="100"
+				loglvl="Error"
+				id="7182fbe0c3044bb8ad998cbbbfcfccef"
+				path="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']"
+				fullname="MBA_Add_ProductRepository.LoginPage.InputName"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

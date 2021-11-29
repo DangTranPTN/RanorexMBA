@@ -1,0 +1,10 @@
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\MBA_WEB.rxtmg
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\MBA_WEB.rxtst
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\MBA_WEB.exe.config
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\MBA_WEB.xml
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\MBA_WEB.exe
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\MBA_WEB.pdb
+E:\QA\TestMBA\Project1\MBA_WEB\bin\Debug\Ranorex.Core.Resolver.dll
+E:\QA\TestMBA\Project1\MBA_WEB\obj\x86\Debug\MBA_WEB.exe
+E:\QA\TestMBA\Project1\MBA_WEB\obj\x86\Debug\MBA_WEB.pdb
+E:\QA\TestMBA\Project1\MBA_WEB\obj\x86\Debug\MBA_WEB.csprojResolveAssemblyReference.cache

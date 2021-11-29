@@ -1,0 +1,829 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MBA_WEB</name>
+    </assembly>
+    <members>
+        <member name="T:MBA_WEB.AddProduct">
+            <summary>
+            Description of AddProduct.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.AddProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.AddProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_WEB.CloseBrowser">
+            <summary>
+            Description of CloseBrowser.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_WEB.CommonFunctions.Menu">
+            <summary>
+            Description of CheckOpenMenu.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.FindProduct">
+            <summary>
+            Description of FindProduct.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.FindProduct.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.FindProduct.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_WEB.Login">
+            <summary>
+            Description of Login.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_WEB.Logout">
+            <summary>
+            Description of Logout.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepository">
+            <summary>
+            The class representing the MBA_WEBRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MBA_WEBRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.Menu_items">
+            <summary>
+            Gets or sets the value of variable Menu_items.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.Item">
+            <summary>
+            Gets or sets the value of variable Item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.LabelCheckBox">
+            <summary>
+            Gets or sets the value of variable LabelCheckBox.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.containerDasboard">
+            <summary>
+            Gets or sets the value of variable containerDasboard.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.CustomerName">
+            <summary>
+            Gets or sets the value of variable CustomerName.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.Variable">
+            <summary>
+            Gets or sets the value of variable Variable.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.ProductName">
+            <summary>
+            Gets or sets the value of variable ProductName.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepository.MBA">
+            <summary>
+            The MBA folder.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder">
+            <summary>
+            The MBAAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MBA  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.NewItem">
+            <summary>
+            The NewItem item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.NewItemInfo">
+            <summary>
+            The NewItem item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.LoginPage">
+            <summary>
+            The LoginPage folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.Profile">
+            <summary>
+            The Profile folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.Dashboard">
+            <summary>
+            The Dashboard folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.LogoutPage">
+            <summary>
+            The LogoutPage folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.MBAAppFolder.Navigation">
+            <summary>
+            The Navigation folder.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder">
+            <summary>
+            The LoginPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginPage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.InputName">
+            <summary>
+            The InputName item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.InputNameInfo">
+            <summary>
+            The InputName item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.InputPassword">
+            <summary>
+            The InputPassword item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.InputPasswordInfo">
+            <summary>
+            The InputPassword item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.ClickSubmitButton">
+            <summary>
+            The ClickSubmitButton item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LoginPageFolder.ClickSubmitButtonInfo">
+            <summary>
+            The ClickSubmitButton item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder">
+            <summary>
+            The ProfileFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Profile  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder.Profile">
+            <summary>
+            The Profile item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder.ProfileInfo">
+            <summary>
+            The Profile item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder.Avatar">
+            <summary>
+            The Avatar item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProfileFolder.AvatarInfo">
+            <summary>
+            The Avatar item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder">
+            <summary>
+            The DashboardFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dashboard  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder.ATagMenuCatalog">
+            <summary>
+            The ATagMenuCatalog item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder.ATagMenuCatalogInfo">
+            <summary>
+            The ATagMenuCatalog item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder.NewItem">
+            <summary>
+            The NewItem item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DashboardFolder.NewItemInfo">
+            <summary>
+            The NewItem item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.LogoutPageFolder">
+            <summary>
+            The LogoutPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.LogoutPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogoutPage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LogoutPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LogoutPageFolder.spanLogout">
+            <summary>
+            The spanLogout item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LogoutPageFolder.spanLogoutInfo">
+            <summary>
+            The spanLogout item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder">
+            <summary>
+            The NavigationFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Navigation  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.hrefParentMenu">
+            <summary>
+            The hrefParentMenu item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.hrefParentMenuInfo">
+            <summary>
+            The hrefParentMenu item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.ulMenuDropList">
+            <summary>
+            The ulMenuDropList item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.ulMenuDropListInfo">
+            <summary>
+            The ulMenuDropList item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.ChildItem">
+            <summary>
+            The ChildItem folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.NavigationFolder.CatalogItem">
+            <summary>
+            The CatalogItem folder.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.ChildItemFolder">
+            <summary>
+            The ChildItemFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.ChildItemFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ChildItem  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ChildItemFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ChildItemFolder.hrefChildMenu">
+            <summary>
+            The hrefChildMenu item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ChildItemFolder.hrefChildMenuInfo">
+            <summary>
+            The hrefChildMenu item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.CatalogItemFolder">
+            <summary>
+            The CatalogItemFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.CatalogItemFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CatalogItem  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.CatalogItemFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.CatalogItemFolder.Products">
+            <summary>
+            The Products folder.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder">
+            <summary>
+            The ProductsFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Products  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.hrefAddNew">
+            <summary>
+            The hrefAddNew item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.hrefAddNewInfo">
+            <summary>
+            The hrefAddNew item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.AddProduct">
+            <summary>
+            The AddProduct folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.ProductFilter">
+            <summary>
+            The ProductFilter folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductsFolder.ProductList">
+            <summary>
+            The ProductList folder.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder">
+            <summary>
+            The AddProductFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddProduct  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.BtnSubmit">
+            <summary>
+            The BtnSubmit item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.BtnSubmitInfo">
+            <summary>
+            The BtnSubmit item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.LinkTab">
+            <summary>
+            The LinkTab folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.DataTab">
+            <summary>
+            The DataTab folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.AddProductFolder.GeneralTab">
+            <summary>
+            The GeneralTab folder.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder">
+            <summary>
+            The LinkTabFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LinkTab  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.hrefLinkTab">
+            <summary>
+            The hrefLinkTab item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.hrefLinkTabInfo">
+            <summary>
+            The hrefLinkTab item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.NewItem1">
+            <summary>
+            The NewItem1 item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.NewItem1Info">
+            <summary>
+            The NewItem1 item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder">
+            <summary>
+            The DataTabFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DataTab  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputModel">
+            <summary>
+            The inputModel item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputModelInfo">
+            <summary>
+            The inputModel item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputPrice">
+            <summary>
+            The inputPrice item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputPriceInfo">
+            <summary>
+            The inputPrice item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputStartDate">
+            <summary>
+            The inputStartDate item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputStartDateInfo">
+            <summary>
+            The inputStartDate item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputEndDate">
+            <summary>
+            The inputEndDate item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.inputEndDateInfo">
+            <summary>
+            The inputEndDate item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.hrefDataTab">
+            <summary>
+            The hrefDataTab item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder.hrefDataTabInfo">
+            <summary>
+            The hrefDataTab item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder">
+            <summary>
+            The GeneralTabFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GeneralTab  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.inputProductName">
+            <summary>
+            The inputProductName item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.inputProductNameInfo">
+            <summary>
+            The inputProductName item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.inputMetaTag">
+            <summary>
+            The inputMetaTag item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.inputMetaTagInfo">
+            <summary>
+            The inputMetaTag item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.hrefGeneralTab">
+            <summary>
+            The hrefGeneralTab item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.GeneralTabFolder.hrefGeneralTabInfo">
+            <summary>
+            The hrefGeneralTab item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder">
+            <summary>
+            The ProductFilterFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ProductFilter  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.inputProductName">
+            <summary>
+            The inputProductName item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.inputProductNameInfo">
+            <summary>
+            The inputProductName item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.inputModel">
+            <summary>
+            The inputModel item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.inputModelInfo">
+            <summary>
+            The inputModel item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.BtnFilter">
+            <summary>
+            The BtnFilter item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductFilterFolder.BtnFilterInfo">
+            <summary>
+            The BtnFilter item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder">
+            <summary>
+            The ProductListFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ProductList  folder.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder.tbodyProductTable">
+            <summary>
+            The tbodyProductTable item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder.tbodyProductTableInfo">
+            <summary>
+            The tbodyProductTable item info.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder.hrefNextPage">
+            <summary>
+            The hrefNextPage item.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.ProductListFolder.hrefNextPageInfo">
+            <summary>
+            The hrefNextPage item info.
+            </summary>
+        </member>
+        <member name="T:MBA_WEB.OpenBrowser">
+            <summary>
+            Description of OpenBrowser.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA_WEB.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MBA_WEB.Recording1.repo">
+            <summary>
+            Holds an instance of the MBA_WEBRepository repository.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MBA_WEB.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MBA_WEB.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MBA_WEB.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MBA_WEB.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

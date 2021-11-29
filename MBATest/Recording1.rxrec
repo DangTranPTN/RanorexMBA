@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6c16a282-62a4-4449-b10d-52bffe713340"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="MBATest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="4a96e0b4-2241-4ec3-9cb5-65fb08898688"
+	name="MBATestRepository"
+	relativepath="MBATestRepository.rxrep">
+		<codegen
+		classname="MBATestRepository"
+		namespace="MBATest">
+		</codegen>
+		<rootfolder
+		id="b28f6d7c-4143-4471-82b9-e6b6b62d7a38"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

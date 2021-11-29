@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MBA_Add_Product"
+      id="4e433eec-5690-4250-9b41-0438868fdc77"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MBA_Add_Product"
+      id="4e433eec-5690-4250-9b41-0438868fdc77"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

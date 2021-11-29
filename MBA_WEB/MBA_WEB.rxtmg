@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MBA_WEB"
+      id="9e33e11d-10ba-4374-8616-0bdff420dacc"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MBA_WEB"
+      id="9e33e11d-10ba-4374-8616-0bdff420dacc"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

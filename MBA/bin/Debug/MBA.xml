@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MBA</name>
+    </assembly>
+    <members>
+        <member name="T:MBA.CloseBrowser">
+            <summary>
+            Description of CloseBrowser.
+            </summary>
+        </member>
+        <member name="M:MBA.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA.CommonAction">
+            <summary>
+            Description of CommonAction.
+            </summary>
+        </member>
+        <member name="M:MBA.CommonAction.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.CommonAction.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA.CommonFunctions.Common">
+            <summary>
+            Description of Common.
+            </summary>
+        </member>
+        <member name="T:MBA.DropList">
+            <summary>
+            Description of DropList.
+            </summary>
+        </member>
+        <member name="M:MBA.DropList.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.DropList.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA.LoginSuccess">
+            <summary>
+            Description of LoginSuccess.
+            </summary>
+        </member>
+        <member name="M:MBA.LoginSuccess.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.LoginSuccess.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA.Logout">
+            <summary>
+            Description of LogOut.
+            </summary>
+        </member>
+        <member name="M:MBA.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA.MBARepository">
+            <summary>
+            The class representing the MBARepository element repository.
+            </summary>
+        </member>
+        <member name="M:MBA.MBARepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MBARepository element repository.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepository.Menu_items">
+            <summary>
+            Gets or sets the value of variable Menu_items.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepository.MBA">
+            <summary>
+            The MBA folder.
+            </summary>
+        </member>
+        <member name="T:MBA.MBARepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MBA.MBARepositoryFolders.MBAAppFolder">
+            <summary>
+            The MBAAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA.MBARepositoryFolders.MBAAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MBA  folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.MBAAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.MBAAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.MBAAppFolder.LoginPage">
+            <summary>
+            The LoginPage folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.MBAAppFolder.Profile">
+            <summary>
+            The Profile folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.MBAAppFolder.Dashboard">
+            <summary>
+            The Dashboard folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.MBAAppFolder.LogoutPage">
+            <summary>
+            The LogoutPage folder.
+            </summary>
+        </member>
+        <member name="T:MBA.MBARepositoryFolders.LoginPageFolder">
+            <summary>
+            The LoginPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA.MBARepositoryFolders.LoginPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginPage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.InputName">
+            <summary>
+            The InputName item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.InputNameInfo">
+            <summary>
+            The InputName item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.InputPassword">
+            <summary>
+            The InputPassword item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.InputPasswordInfo">
+            <summary>
+            The InputPassword item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.ClickSubmitButton">
+            <summary>
+            The ClickSubmitButton item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LoginPageFolder.ClickSubmitButtonInfo">
+            <summary>
+            The ClickSubmitButton item info.
+            </summary>
+        </member>
+        <member name="T:MBA.MBARepositoryFolders.ProfileFolder">
+            <summary>
+            The ProfileFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA.MBARepositoryFolders.ProfileFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Profile  folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.ProfileFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.ProfileFolder.Profile">
+            <summary>
+            The Profile item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.ProfileFolder.ProfileInfo">
+            <summary>
+            The Profile item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.ProfileFolder.Avatar">
+            <summary>
+            The Avatar item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.ProfileFolder.AvatarInfo">
+            <summary>
+            The Avatar item info.
+            </summary>
+        </member>
+        <member name="T:MBA.MBARepositoryFolders.DashboardFolder">
+            <summary>
+            The DashboardFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA.MBARepositoryFolders.DashboardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dashboard  folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.DashboardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.DashboardFolder.ATagMenuCatalog">
+            <summary>
+            The ATagMenuCatalog item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.DashboardFolder.ATagMenuCatalogInfo">
+            <summary>
+            The ATagMenuCatalog item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.DashboardFolder.NewItem">
+            <summary>
+            The NewItem item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.DashboardFolder.NewItemInfo">
+            <summary>
+            The NewItem item info.
+            </summary>
+        </member>
+        <member name="T:MBA.MBARepositoryFolders.LogoutPageFolder">
+            <summary>
+            The LogoutPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBA.MBARepositoryFolders.LogoutPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LogoutPage  folder.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LogoutPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LogoutPageFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:MBA.MBARepositoryFolders.LogoutPageFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="T:MBA.OpenBrowser">
+            <summary>
+            Description of OpenBrowser.
+            </summary>
+        </member>
+        <member name="M:MBA.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBA.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MBA.Recording1.repo">
+            <summary>
+            Holds an instance of the MBARepository repository.
+            </summary>
+        </member>
+        <member name="M:MBA.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBA.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MBA.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MBA.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MBA.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MBA.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

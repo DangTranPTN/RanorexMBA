@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13s"
+		durationms="13004"
+		type="root"
+		rid="13d3721779d06bf7"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DangTranPTN"
+		rxversion="10.1.2.0"
+		host="DESKTOP-DTRR79V"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/16/2021 1:49:06 PM"
+		timestampiso="2021-11-16T06:49:06"
+		endtime="11/16/2021 1:49:19 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.884"
+			timeRelativeToTestModuleStartTime="00:10.884"
+			timeWallClock="13:49:17"
+			time="00:10.884"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Username
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.897"
+			timeRelativeToTestModuleStartTime="00:10.897"
+			timeWallClock="13:49:17"
+			time="00:10.897"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://ptn-test1.oc.mbasrv.com/sbe' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.110"
+			timeRelativeToTestModuleStartTime="00:11.110"
+			timeWallClock="13:49:17"
+			time="00:11.110"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 2s to exist. Associated repository item: 'LoginPage.InputName'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']"
+				itempath=".//input[#'input-username']"
+				fullname="MBA_Add_ProductRepository.LoginPage.InputName"
+				id="7182fbe0c3044bb8ad998cbbbfcfccef"
+				timeout="2000"
+				codefile="e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs"
+				codeline="99"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.413"
+			timeRelativeToTestModuleStartTime="00:12.413"
+			timeWallClock="13:49:18"
+			time="00:12.413"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'HPSystemEventUtilityHost' (pid 9520)<br/>https://www.ranorex.com/help/v10.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.684"
+			timeRelativeToTestModuleStartTime="00:12.684"
+			timeWallClock="13:49:19"
+			time="00:12.684"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Value to '$Username' on item 'LoginPage.InputName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='ptn-test1.oc.mbasrv.com']//input[#'input-username']"
+				itempath=".//input[#'input-username']"
+				fullname="MBA_Add_ProductRepository.LoginPage.InputName"
+				id="7182fbe0c3044bb8ad998cbbbfcfccef"
+				timeout="60000"
+				codefile="e:\QA\TestMBA\Project1\MBA_Add_Product\Recording1.cs"
+				codeline="102"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|E:\QA\TestMBA\Project1\MBA_Add_Product\ClickButton.cs|32|10|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="MBA_Add_Product.rxtst" />
+    <Element value="CloseBrowser.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="MBA_Add_Product.Recording1.Recording1_Open_browser()" />
+      <Element value="MBA_Add_Product.Recording1.Recording1_Open_browser()" />
+    </Array>
+  </Properties>
+</Properties>

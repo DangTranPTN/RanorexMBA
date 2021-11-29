@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.46s"
+		durationms="4462"
+		type="root"
+		rid="2ac550dd04a6dc63"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DangTranPTN"
+		rxversion="10.1.2.0"
+		host="DESKTOP-DTRR79V"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/16/2021 2:29:12 PM"
+		timestampiso="2021-11-16T07:29:12"
+		endtime="11/16/2021 2:29:16 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.453"
+			timeRelativeToTestModuleStartTime="00:04.453"
+			timeWallClock="14:29:16"
+			time="00:04.453"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Failed to find required component Ranorex.TestExecMonitor.exe.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Paths.GetToolPath(String exeName)
+   at Ranorex.Core.Paths.GetTestExecMonitorPath()
+   at Ranorex.Core.Controls.TestProgressProvider.StartTestProgressProvider(ProviderParams providerParams)
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

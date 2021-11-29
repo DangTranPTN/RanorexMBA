@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.38s"
+		durationms="1376"
+		type="root"
+		rid="283c5512df7a9de4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DangTranPTN"
+		rxversion="10.1.2.0"
+		host="DESKTOP-DTRR79V"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="11/16/2021 1:59:31 PM"
+		timestampiso="2021-11-16T06:59:31"
+		endtime="11/16/2021 1:59:32 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.303"
+			timeRelativeToTestModuleStartTime="00:01.303"
+			timeWallClock="13:59:32"
+			time="00:01.303"
+			level="Failure"
+			category="Module"
+			errimg="images_Recordin_5f3c1cdb\Recordin_5f3c1cdb_adbee34d_trace.jpg"
+			errthumb="images_Recordin_5f3c1cdb\Recordin_5f3c1cdb_adbee34d_trace_thumb.jpg">
+			<message>
+				Failed to find required component Ranorex.TestExecMonitor.exe.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Paths.GetToolPath(String exeName)
+   at Ranorex.Core.Paths.GetTestExecMonitorPath()
+   at Ranorex.Core.Controls.TestProgressProvider.StartTestProgressProvider(ProviderParams providerParams)
+   at Ranorex.Core.Testing.TestModuleRunner.SetupFromRunParams(String reportFilename, Boolean generateReport)
+   at Ranorex.Core.Testing.TestModuleRunner.RunStandalone(ITestModule module, String reportFilename, Boolean generateReport, String standaloneModuleName, CaseInsensitiveString guid)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,10 @@
+E:\QA\TestMBA\Project1\MBA\bin\Debug\MBA.rxtmg
+E:\QA\TestMBA\Project1\MBA\bin\Debug\MBA.rxtst
+E:\QA\TestMBA\Project1\MBA\bin\Debug\MBABackup.exe.config
+E:\QA\TestMBA\Project1\MBA\bin\Debug\MBABackup.xml
+E:\QA\TestMBA\Project1\MBA\bin\Debug\MBABackup.exe
+E:\QA\TestMBA\Project1\MBA\bin\Debug\MBABackup.pdb
+E:\QA\TestMBA\Project1\MBA\bin\Debug\Ranorex.Core.Resolver.dll
+E:\QA\TestMBA\Project1\MBA\obj\x86\Debug\MBABackup.exe
+E:\QA\TestMBA\Project1\MBA\obj\x86\Debug\MBABackup.pdb
+E:\QA\TestMBA\Project1\MBA\obj\x86\Debug\MBABackup.csprojResolveAssemblyReference.cache

@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MBATest</name>
+    </assembly>
+    <members>
+        <member name="T:MBATest.closeBrowser">
+            <summary>
+            Description of closeBrowser.
+            </summary>
+        </member>
+        <member name="M:MBATest.closeBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBATest.closeBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBATest.inputText">
+            <summary>
+            Description of inputText.
+            </summary>
+        </member>
+        <member name="M:MBATest.inputText.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBATest.inputText.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBATest.MBATestRepository">
+            <summary>
+            The class representing the MBATestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MBATest.MBATestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MBATestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepository.Administration">
+            <summary>
+            The Administration folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepository.SavePassword">
+            <summary>
+            The SavePassword folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepository.MBATest">
+            <summary>
+            The MBATest folder.
+            </summary>
+        </member>
+        <member name="T:MBATest.MBATestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MBATest.MBATestRepositoryFolders.AdministrationAppFolder">
+            <summary>
+            The AdministrationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Administration  folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.InputUsername">
+            <summary>
+            The InputUsername item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.InputUsernameInfo">
+            <summary>
+            The InputUsername item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.InputPassword">
+            <summary>
+            The InputPassword item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.InputPasswordInfo">
+            <summary>
+            The InputPassword item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.ButtonTagLogin">
+            <summary>
+            The ButtonTagLogin item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.ButtonTagLoginInfo">
+            <summary>
+            The ButtonTagLogin item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.AdministrationAppFolder.NavNavbarNavNavbarRight">
+            <summary>
+            The NavNavbarNavNavbarRight folder.
+            </summary>
+        </member>
+        <member name="T:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder">
+            <summary>
+            The NavNavbarNavNavbarRightFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NavNavbarNavNavbarRight  folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.FaFaCaretDownFaFw">
+            <summary>
+            The FaFaCaretDownFaFw item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.FaFaCaretDownFaFwInfo">
+            <summary>
+            The FaFaCaretDownFaFw item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.ATagYourProfile">
+            <summary>
+            The ATagYourProfile item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.NavNavbarNavNavbarRightFolder.ATagYourProfileInfo">
+            <summary>
+            The ATagYourProfile item info.
+            </summary>
+        </member>
+        <member name="T:MBATest.MBATestRepositoryFolders.SavePasswordAppFolder">
+            <summary>
+            The SavePasswordAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBATest.MBATestRepositoryFolders.SavePasswordAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SavePassword  folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.SavePasswordAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.SavePasswordAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.SavePasswordAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.SavePasswordAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:MBATest.MBATestRepositoryFolders.MBATestAppFolder">
+            <summary>
+            The MBATestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBATest.MBATestRepositoryFolders.MBATestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MBATest  folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.MBATestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.MBATestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.MBATestAppFolder.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="T:MBATest.MBATestRepositoryFolders.LoginFolder">
+            <summary>
+            The LoginFolder folder.
+            </summary>
+        </member>
+        <member name="M:MBATest.MBATestRepositoryFolders.LoginFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.InputUsername">
+            <summary>
+            The InputUsername item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.InputUsernameInfo">
+            <summary>
+            The InputUsername item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.InputPassword">
+            <summary>
+            The InputPassword item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.InputPasswordInfo">
+            <summary>
+            The InputPassword item info.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.BtnSubmit">
+            <summary>
+            The BtnSubmit item.
+            </summary>
+        </member>
+        <member name="P:MBATest.MBATestRepositoryFolders.LoginFolder.BtnSubmitInfo">
+            <summary>
+            The BtnSubmit item info.
+            </summary>
+        </member>
+        <member name="T:MBATest.openBrowser">
+            <summary>
+            Description of openBrowser.
+            </summary>
+        </member>
+        <member name="M:MBATest.openBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBATest.openBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:MBATest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MBATest.Recording1.repo">
+            <summary>
+            Holds an instance of the MBATestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MBATest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MBATest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MBATest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MBATest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MBATest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MBATest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="MBA.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="CloseBrowser.cs" />
+    <Element value="CommonFunctions\Common.cs" />
+    <Element value="MBARepository.rxrep" />
+    <Element value="MBA.rxtst" />
+    <Element value="LoginSuccess.cs" />
+    <Element value="OpenBrowser.cs" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>
