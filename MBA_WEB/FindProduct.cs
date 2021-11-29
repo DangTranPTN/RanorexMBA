@@ -59,7 +59,7 @@ namespace MBA_WEB
 //            menu.ShowMenuItem("Catalog", "Categories");
 //            menu.ShowMenuItem("Extensions", "Installer");
         }
-        public void FindProductCatalog(string productName) {
+        public static void FindProductCatalog(string productName) {
         	var repo = MBA_WEBRepository.Instance;
         	Menu menu = new Menu();
         	menu.ClickMenuItem("Catalog", "Products");

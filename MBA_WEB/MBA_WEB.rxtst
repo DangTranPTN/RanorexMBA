@@ -110,6 +110,44 @@
 			name="AddProduct"
 			ref="9772af77-7ddd-4627-abe7-7d470c778e3a"
 			type="UserCode">
+				<databinding>
+					<var
+					dataname="productName"
+					datasourceid="2f33666f-135b-495f-81ad-fc1b63e1e579"
+					variableid="dc5c661e-1bcb-455f-ac1b-5f03df420d90"
+					variablename="productName">
+					</var>
+					<var
+					dataname="productMetaTag"
+					datasourceid="2f33666f-135b-495f-81ad-fc1b63e1e579"
+					variableid="cc176c7f-68d8-411b-8d90-77536d9d65ab"
+					variablename="productMetaTag">
+					</var>
+					<var
+					dataname="productModel"
+					datasourceid="2f33666f-135b-495f-81ad-fc1b63e1e579"
+					variableid="6f64f36b-40d3-493d-97e5-a3a37d5fc6d7"
+					variablename="productModel">
+					</var>
+					<var
+					dataname="startDate"
+					datasourceid="2f33666f-135b-495f-81ad-fc1b63e1e579"
+					variableid="9ccb45fa-7589-41df-9ae3-f1d033a7bd29"
+					variablename="startDate">
+					</var>
+					<var
+					dataname="endDate"
+					datasourceid="2f33666f-135b-495f-81ad-fc1b63e1e579"
+					variableid="37b3aadf-2784-44db-a199-4f218d456bba"
+					variablename="endDate">
+					</var>
+					<var
+					dataname="storeValue"
+					datasourceid="2f33666f-135b-495f-81ad-fc1b63e1e579"
+					variableid="4b74332f-8afc-4d87-95a9-4fa32ceb5865"
+					variablename="storeValue">
+					</var>
+				</databinding>
 			</testmodule>
 			<teardown
 			id="99664784-11e0-4282-8133-9bdf356f280a"
@@ -149,6 +187,7 @@
 			name="TC_FindProduct">
 			</testcase>
 			<testcase
+			datasource="inputAddProduct"
 			id="e46e03cd-fba0-4f4b-8f24-0f2876878f76"
 			name="TC_AddProduct">
 			</testcase>
@@ -258,6 +297,76 @@
 	</testsuiteentryhierarchy>
 	<datasources>
 		<DataSource
+		id="2f33666f-135b-495f-81ad-fc1b63e1e579"
+		lastknownrowcount="1"
+		name="inputAddProduct"
+		type="Ranorex.Core.Data.SimpleDataConnector">
+			<lastknowncolumns>
+				<column>
+					productName
+				</column>
+				<column>
+					productMetaTag
+				</column>
+				<column>
+					productModel
+				</column>
+				<column>
+					startDate
+				</column>
+				<column>
+					endDate
+				</column>
+				<column>
+					storeValue
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns>
+			</maskedcolumns>
+			<table>
+				<tr>
+					<th>
+						productName
+					</th>
+					<th>
+						productMetaTag
+					</th>
+					<th>
+						productModel
+					</th>
+					<th>
+						startDate
+					</th>
+					<th>
+						endDate
+					</th>
+					<th>
+						storeValue
+					</th>
+				</tr>
+				<tr>
+					<td>
+						$8 DangTran Addproduct for testing
+					</td>
+					<td>
+						DangTran Test MetaTag data
+					</td>
+					<td>
+						AU_161121
+					</td>
+					<td>
+						2021-11-23
+					</td>
+					<td>
+						2022-11-16
+					</td>
+					<td>
+						ACA Rewards+
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
 		id="cfa09729-eabd-4446-a51a-ea7b5aac4d0b"
 		lastknownrowcount="2"
 		name="InputProductName"
@@ -312,7 +421,7 @@
 			id="4a26d943-3305-43d4-94b2-248ac65e5889">
 			</testcontainer>
 			<testcontainer
-			id="d8557162-eec7-4f7d-9930-a597367bf251">
+			id="e46e03cd-fba0-4f4b-8f24-0f2876878f76">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

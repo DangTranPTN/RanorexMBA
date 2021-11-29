@@ -46,9 +46,9 @@ namespace MBA_WEB.CommonFunctions
 		}
 		public void SearchProduct(string productName) {
 			var repo = MBA_WEBRepository.Instance;
-			Report.Log(ReportLevel.Info, "Set value", "Setting attribute" +productName + "  on item 'MBA.ProductFilter.ProductName'.", repo.MBA.Navigation.CatalogItem.Products.ProductFilter.inputProductNameInfo, new RecordItemIndex(0));
+			Report.Log(ReportLevel.Info, string.Format("search {0}  to check if the latest product has been added", productName));
             repo.MBA.Navigation.CatalogItem.Products.ProductFilter.inputProductName.Element.SetAttributeValue("Value", productName);
-            Report.Log(ReportLevel.Info, "Mouse", "Click Filter button to find product with item 'MBA.ProductFilter.BtnFilter' at Center.", repo.MBA.Navigation.CatalogItem.Products.ProductFilter.BtnFilterInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, string.Format("Click Filter button to find product"));
             repo.MBA.Navigation.CatalogItem.Products.ProductFilter.BtnFilter.Click();
             Delay.Milliseconds(3000);
             List<string> GetProductFound = GetAllProduct();
@@ -95,7 +95,7 @@ namespace MBA_WEB.CommonFunctions
             }
 			return countFaild > 0 ? false:true;
         }
-		public void setDataAddProduct(string ProductName, string ProductMetaTag, string productModel, string startDate, string endDate, int storeValue) {
+		public void setDataAddProduct(string ProductName, string ProductMetaTag, string productModel, string startDate, string endDate, string storeValue) {
 			//Declare
 			var repo = MBA_WEBRepository.Instance;
 			var Products = repo.MBA.Navigation.CatalogItem.Products;
@@ -110,32 +110,58 @@ namespace MBA_WEB.CommonFunctions
 			var inputStartDate = Products.AddProduct.DataTab.inputStartDate;
 			var inputEndDate = Products.AddProduct.DataTab.inputEndDate;
 			
+			//links Tab
+			var linkTab = Products.AddProduct.LinkTab.hrefLinkTab;
+			repo.checkboxStoreValue = storeValue;
+			var checkboxStoreValue = Products.AddProduct.LinkTab.checkboxStoreValue;
+
+
 			var btnSave = Products.AddProduct.BtnSubmit;
-			
+
 			//set General info
-			aGeneralTab.Click();
+			Report.Log(ReportLevel.Info, string.Format("at General Tab, set product name value: {0}", ProductName));
+			aGeneralTab.PerformClick();
 			inputProductName.Element.SetAttributeValue("Value", ProductName);
-			Delay.Seconds(3);
+			Delay.Milliseconds(300);
 			
+			Report.Log(ReportLevel.Info, string.Format("at General Tab, set metaTag name value: {0}", ProductMetaTag));
 			inputMetaTag.Focus();
 			inputMetaTag.Element.SetAttributeValue("Value", ProductMetaTag);
-			Delay.Seconds(3);
-			
+			Delay.Milliseconds(300);
+
 			//set Data info
-			aDataTab.Click();
+			Report.Log(ReportLevel.Info, string.Format("at Data Tab, set metaTag name value: {0}", productModel));
+			aDataTab.PerformClick();
 			inputModel.Focus();
 			inputModel.Element.SetAttributeValue("Value", productModel);
-			Delay.Seconds(3);
-			
+			Delay.Milliseconds(300);
+
+			Report.Log(ReportLevel.Info, string.Format("at Data Tab, set start Date name value: {0}", startDate));
 			inputStartDate.Focus();
 			inputStartDate.Element.SetAttributeValue("Value", startDate);
-			Delay.Seconds(3);
-			
+			Delay.Milliseconds(300);
+
+			Report.Log(ReportLevel.Info, string.Format("at Data Tab, set end Date name value: {0}", endDate));
 			inputEndDate.Focus();
 			inputEndDate.Element.SetAttributeValue("Value", endDate);
 			Delay.Seconds(1);
 			
+			//set Links info
+			linkTab.PerformClick();
+			checkboxStoreValue.Focus();
+			if (checkboxStoreValue.Element.GetAttributeValueText("Checked") != "True")
+            {
+				Report.Log(ReportLevel.Info, string.Format("at links Tab, {0} has been checked !", storeValue));
+				checkboxStoreValue.PerformClick();
+            }
+            else
+            {
+				Report.Log(ReportLevel.Info, string.Format("at Links Tab, no Click checkbox action ! Because it has set as default"));
+            }
+			Delay.Milliseconds(300);
+
 			//Save
+			Report.Log(ReportLevel.Info, string.Format("Click the save button to save the product !"));
 			btnSave.Click();
 			Delay.Seconds(2);
 		}
