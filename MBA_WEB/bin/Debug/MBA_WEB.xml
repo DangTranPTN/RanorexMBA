@@ -124,9 +124,9 @@
             Gets or sets the value of variable Item.
             </summary>
         </member>
-        <member name="P:MBA_WEB.MBA_WEBRepository.LabelCheckBox">
+        <member name="P:MBA_WEB.MBA_WEBRepository.checkboxStoreValue">
             <summary>
-            Gets or sets the value of variable LabelCheckBox.
+            Gets or sets the value of variable checkboxStoreValue.
             </summary>
         </member>
         <member name="P:MBA_WEB.MBA_WEBRepository.containerDasboard">
@@ -554,14 +554,14 @@
             The hrefLinkTab item info.
             </summary>
         </member>
-        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.NewItem1">
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.checkboxStoreValue">
             <summary>
-            The NewItem1 item.
+            The checkboxStoreValue item.
             </summary>
         </member>
-        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.NewItem1Info">
+        <member name="P:MBA_WEB.MBA_WEBRepositoryFolders.LinkTabFolder.checkboxStoreValueInfo">
             <summary>
-            The NewItem1 item info.
+            The checkboxStoreValue item info.
             </summary>
         </member>
         <member name="T:MBA_WEB.MBA_WEBRepositoryFolders.DataTabFolder">

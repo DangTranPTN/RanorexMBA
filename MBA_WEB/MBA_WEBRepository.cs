@@ -73,16 +73,16 @@ namespace MBA_WEB
             set { _Item = value; }
         }
 
-        string _LabelCheckBox = "Default";
+        string _checkboxStoreValue = "Default";
 
         /// <summary>
-        /// Gets or sets the value of variable LabelCheckBox.
+        /// Gets or sets the value of variable checkboxStoreValue.
         /// </summary>
         [TestVariable("ff5877dd-ef87-4d44-9a83-48cd35fcd76b")]
-        public string LabelCheckBox
+        public string checkboxStoreValue
         {
-            get { return _LabelCheckBox; }
-            set { _LabelCheckBox = value; }
+            get { return _checkboxStoreValue; }
+            set { _checkboxStoreValue = value; }
         }
 
         string _containerDasboard = "Total Orders";
@@ -980,7 +980,7 @@ namespace MBA_WEB
         public partial class LinkTabFolder : RepoGenBaseFolder
         {
             RepoItemInfo _hreflinktabInfo;
-            RepoItemInfo _newitem1Info;
+            RepoItemInfo _checkboxstorevalueInfo;
 
             /// <summary>
             /// Creates a new LinkTab  folder.
@@ -989,7 +989,7 @@ namespace MBA_WEB
                     base("LinkTab", "", parentFolder, 0, null, false, "9a510cd1-7e1c-41b2-b7f7-f05ccb606479", "")
             {
                 _hreflinktabInfo = new RepoItemInfo(this, "hrefLinkTab", ".//a[@innertext='Links']", "element", 30000, null, "ef96e5d5-68ec-4c76-9ae5-bcc8420eb38e");
-                _newitem1Info = new RepoItemInfo(this, "NewItem1", ".//label[@innertext~'Default']/input", "element", 30000, null, "d99bb24b-d282-471e-a239-83c3f691f80c");
+                _checkboxstorevalueInfo = new RepoItemInfo(this, "checkboxStoreValue", ".//label[@innertext~$checkboxStoreValue]/input[@type='checkbox']", "", 30000, null, "d99bb24b-d282-471e-a239-83c3f691f80c");
             }
 
             /// <summary>
@@ -1029,26 +1029,26 @@ namespace MBA_WEB
             }
 
             /// <summary>
-            /// The NewItem1 item.
+            /// The checkboxStoreValue item.
             /// </summary>
             [RepositoryItem("d99bb24b-d282-471e-a239-83c3f691f80c")]
-            public virtual Ranorex.InputTag NewItem1
+            public virtual Ranorex.InputTag checkboxStoreValue
             {
                 get
                 {
-                    return _newitem1Info.CreateAdapter<Ranorex.InputTag>(true);
+                    return _checkboxstorevalueInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The NewItem1 item info.
+            /// The checkboxStoreValue item info.
             /// </summary>
             [RepositoryItemInfo("d99bb24b-d282-471e-a239-83c3f691f80c")]
-            public virtual RepoItemInfo NewItem1Info
+            public virtual RepoItemInfo checkboxStoreValueInfo
             {
                 get
                 {
-                    return _newitem1Info;
+                    return _checkboxstorevalueInfo;
                 }
             }
         }

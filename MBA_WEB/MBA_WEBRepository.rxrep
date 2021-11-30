@@ -193,10 +193,10 @@ name="MBA_WEBRepository">
 								<item
 								capname="inputtag"
 								id="d99bb24b-d282-471e-a239-83c3f691f80c"
-								name="NewItem1"
-								robustPath="/dom[@domain='ptn-test1.oc.mbasrv.com']/element"
+								name="checkboxStoreValue"
+								robustPath=""
 								searchtimeout="30000ms">
-									/dom[@domain='ptn-test1.oc.mbasrv.com']//label[@innertext~'Default']/input
+									/dom[@domain='ptn-test1.oc.mbasrv.com']//label[@innertext~$checkboxStoreValue]/input[@type='checkbox']
 								</item>
 							</folder>
 							<folder
@@ -371,7 +371,7 @@ name="MBA_WEBRepository">
 		</var>
 		<var
 		id="ff5877dd-ef87-4d44-9a83-48cd35fcd76b"
-		name="LabelCheckBox">
+		name="checkboxStoreValue">
 			Default
 		</var>
 		<var
